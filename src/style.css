@@ -28,4 +28,7 @@
    .feedback:hover {
     left: 0; /* При наведении сдвигаем вправо */
    }
- 
+   #text {
+      float: center;
+      color: #000;
+   }
