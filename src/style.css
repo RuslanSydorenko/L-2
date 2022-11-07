@@ -1,7 +1,7 @@
  body {
     margin: 0;
    }
-   .feedback {
+   .nure {
     border-radius: 0 10px 10px 0;
     width: 300px;
     background:#ffeabb; /* Цвет фона */
@@ -13,11 +13,11 @@
     padding: 10px;
     transition: left 1s; /* Анимация */
    }
-   .feedback img {
+   .nure img {
     float: left;
     margin: 0 10px 0 0;
    }
-   .feedback::after {
+   .nure::after {
     content: 'Contacts'; /* Выводим текст */
     color: #000; /* Цвет надписи */
     position: absolute; /* Абсолютное позиционирование */
@@ -25,7 +25,7 @@
     transform: rotate(-90deg); /* Поворачиваем текст */
     -webkit-transform: rotate(-90deg);
    }
-   .feedback:hover {
+   .nure:hover {
     left: 0; /* При наведении сдвигаем вправо */
    }
    #text {
