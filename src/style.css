@@ -5,7 +5,6 @@
     border-radius: 0 10px 10px 0;
     width: 300px;
     background:#ffeabb; /* Цвет фона */
-    color: #000; /* Цвет текста */
     position: fixed; /* Фиксируем на одном месте  */
     min-height: 100px; /* Минимальная высота */
     top: 100px; left: -320px;
@@ -30,5 +29,5 @@
    }
    #text {
       float: center;
-      color: #000;
+      color: #000; /* Цвет текста */
    }
